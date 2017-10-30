@@ -1,0 +1,24 @@
+{
+  "name": "cli",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aleservian/cli.git"
+  },
+  "homepage": "https://github.com/aleservian/cli",
+  "scripts": {
+    "start": "babel-node index.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  },
+  "dependencies": {
+    "commander": "^2.11.0"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "cli-test": "index.js"
+  }
+}
